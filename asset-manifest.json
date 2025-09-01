@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4516c3ff.css",
+    "main.js": "/static/js/main.9fd28539.js",
+    "static/js/900.7744902a.chunk.js": "/static/js/900.7744902a.chunk.js",
+    "static/media/Teach3.jpg": "/static/media/Teach3.17822f2aab749cd1a35b.jpg",
+    "static/media/Badd.jpg": "/static/media/Badd.03d73b4034dbb718a41e.jpg",
+    "static/media/Teach2.jpg": "/static/media/Teach2.16b28b3f545c14e1da4e.jpg",
+    "static/media/Bad3.jpg": "/static/media/Bad3.3d6a1a268ac982c52d8b.jpg",
+    "static/media/Teach1.jpg": "/static/media/Teach1.af11c76ff8137a178b64.jpg",
+    "static/media/รูปเสื้อขาว.jpg": "/static/media/รูปเสื้อขาว.9bac194369eafd0f7948.jpg",
+    "static/media/BigFam.png": "/static/media/BigFam.9188093cb8c234bf8f20.png",
+    "static/media/Noncc.jpg": "/static/media/Noncc.a97b4d5d49514d2478ac.jpg",
+    "static/media/แมวหา.png": "/static/media/แมวหา.26e9d278129d4556eced.png",
+    "static/media/Resume_Thunyaporn_Suwanpadit.png": "/static/media/Resume_Thunyaporn_Suwanpadit.bfae8f3ba095a574ede8.png",
+    "static/media/Nonc.jpg": "/static/media/Nonc.664e3d479194ef1ab467.jpg",
+    "static/media/Bas.jpg": "/static/media/Bas.1b74f6abdd2bb72a7c79.jpg",
+    "static/media/BigFamm.jpg": "/static/media/BigFamm.b552104c6843ce3f98dc.jpg",
+    "static/media/Bass.jpg": "/static/media/Bass.b2177909fb48a5efa8ed.jpg",
+    "static/media/Bigfamily.png": "/static/media/Bigfamily.367d3727494d8ca3cdf3.png",
+    "static/media/teach.png": "/static/media/teach.0eade741fb332049625d.png",
+    "static/media/Nonbad.png": "/static/media/Nonbad.0fbab3145ce24d41133e.png",
+    "static/media/SportsFestival.png": "/static/media/SportsFestival.ca2209f947890e0b7631.png",
+    "index.html": "/index.html",
+    "main.4516c3ff.css.map": "/static/css/main.4516c3ff.css.map",
+    "main.9fd28539.js.map": "/static/js/main.9fd28539.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4516c3ff.css",
+    "static/js/main.9fd28539.js"
+  ]
+}
