@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding-top: 70px;  /* เท่ากับความสูงของ navbar */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EB0029;
+    color: white;
+    padding: 1rem; 
+    flex-wrap: wrap;
+    width: 100%;           /* กว้างเต็มหน้าจอ */
+    position: fixed;       /* ลอยบนสุด */
+    top: 0;
+    left: 0;
+    z-index: 1000;         /* ให้อยู่บนสุด */
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 0; 
+}
+
+/* เพิ่ม display: inline-block ให้ <a> เพื่อ transform ทำงาน */
+.nav-links a {
+    display: inline-block; 
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.2s; /* ลื่นไหล */
+}
+
+/* Hover ลิงก์เด้งขึ้น */
+.nav-links a:hover {
+    color: white;
+    transform: translateY(-5px); /* เด้งขึ้น 5px */
+}
+
+/* ลบเส้นใต้ออกจาก Link ใน Navbar */
+.nav-links a, 
+.nav-links a:hover, 
+.nav-links a:visited {
+    text-decoration: none;
+    color: inherit; /* เพื่อให้สียังคงเดิม */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* เรียงจากบนลงล่าง */
+        align-items: center; /* จัดให้อยู่กึ่งกลาง */
+    }
+
+    .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        width: 100%; /* ทำให้โลโก้กว้างเต็มพื้นที่เพื่อจัดกึ่งกลางง่ายขึ้น */
+    }
+    
+    .nav-links {
+        width: 100%;
+        justify-content: space-around; /* กระจายลิงก์เต็มความกว้าง */
+        margin-top: 0.5rem;
+    }
+}

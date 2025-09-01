@@ -1,0 +1,94 @@
+.activities-grid .top,
+.activities-grid .Bottom {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 100px; 
+    margin-bottom: 60px; 
+}
+
+.activities-page {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.activities-header {
+    margin-bottom: 50px;
+}
+
+.activities-header .subtitle {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: #EB0029;
+    margin-bottom: 10px;
+}
+
+.activities-header .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #333;
+}
+
+.activity-card img {
+  width: 150px; 
+  height: 150px; 
+  object-fit: contain; 
+  padding: 10px;
+  background-color: transparent; 
+  margin-bottom: 15px;
+}
+
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; 
+  height: 250px; 
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(12, 195, 158, 0.214);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.activity-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px  rgba(234, 22, 220, 0.1);
+}
+
+.activity-card .activity-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+.activities-grid a,
+.activities-grid a:hover,
+.activities-grid a:visited {
+    text-decoration: none;
+    color: inherit; /* เพื่อให้สีของข้อความยังคงเดิม */
+}
+
+.activity-card a {
+    text-decoration: none;
+}
+
+/* Responsive Design (ตรวจสอบให้แน่ใจว่าได้ปรับใน media queries ด้วย) */
+@media (max-width: 768px) {
+  .activity-card img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .activity-card {
+    width: 450px;
+    height: auto; 
+  }
+
+  .activities-page {
+    padding-top: 120px;
+  }
+}
+
